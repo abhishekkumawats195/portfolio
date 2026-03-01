@@ -3,6 +3,10 @@
 <head>
     <title>Abhishek | Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -10,6 +14,7 @@
 <div class="cursor"></div>
 <div class="cursor-follower"></div>
 <div class="progress-bar"></div>
+
 <!-- NAVBAR -->
 <nav>
     <h2 class="logo">Abhishek</h2>
@@ -30,21 +35,24 @@
 
         <div class="hero-left">
             <h1>Hi, I'm <span>Abhishek</span></h1>
-            <p class="typing">A passionate frontend developer crafting clean, modern and user-friendly websites. Always learning, always improving, and building the future one line of code at a time.</p>
+
+            <p class="typing">
+                A passionate frontend developer crafting clean, modern and user-friendly websites.
+                Always learning, always improving, and building the future one line of code at a time.
+            </p>
 
             <div class="hero-buttons">
-                <button class="btn-primary">Hire Me</button>
-                <button class="btn-outline">View Work</button>
+                <a href="#contact" class="btn-primary">Hire Me</a>
+                <a href="#portfolio" class="btn-outline">View Work</a>
             </div>
         </div>
 
-        <!-- <div class="hero-right">
-            <img src="image/hacker-5k-wallpaper-5081x2858-22393.jpg" alt="Hero Image">
-        </div> -->
-        
-
     </div>
 </section>
+
+</body>
+</html>
+
 
 <div class="divider"></div>
 
@@ -53,42 +61,53 @@
     <div class="about-container">
 
         <div class="about-image">
-            <img src="WhatsApp Image 2025-12-20 at 10.48.41 AM.jpeg" alt="Abhishek Kumawat">
+            <img src="image/WhatsApp Image 2025-12-20 at 10.48.41 AM.jpeg" alt="Abhishek Kumawat">
         </div>
 
         <div class="about-text">
             <h2 class="section-title">About Me</h2>
 
+            <!-- Short Introduction -->
             <p>
-                Hello! I'm <strong>Abhishek Kumawat</strong>, currently pursuing 
-                <strong>B.Tech (2nd Year)</strong> from <strong>JEC College</strong>. 
-                I am passionate about web development and constantly learning 
-                new technologies to improve my skills.
+                Hello! I'm <strong>Abhishek Kumawat</strong>, a passionate 
+                <strong>Frontend Web Developer</strong> and B.Tech (2nd Year) student. 
+                I love building modern, responsive and user-friendly websites 
+                that help businesses grow online.
             </p>
 
+            <!-- Skills -->
+            <h3>My Skills</h3>
+            <ul class="skills-list">
+                <li>✔ HTML5</li>
+                <li>✔ CSS3</li>
+                <li>✔ JavaScript (Basic)</li>
+                <li>✔ Responsive Web Design</li>
+                <li>✔ Git & GitHub</li>
+            </ul>
+
+            <!-- Experience -->
+            <h3>Experience</h3>
             <p>
-                I belong to <strong>Kaladera, Chomu, Jaipur (Rajasthan)</strong>. 
-                I completed my 12th with <strong>80%</strong> marks and since then 
-                I have been focused on building a strong technical foundation.
+                Currently working in <strong>Sales</strong>, where I interact with clients 
+                and understand business requirements. This experience helps me 
+                create websites that are not just beautiful, but also 
+                conversion-focused and business-oriented.
             </p>
 
-            <p>
-                My goal is to become a professional frontend developer and 
-                create modern, responsive and user-friendly websites.
-            </p>
-        <div class="info-box">
-            <p><strong>College:</strong> JEC College</p>
-            <p><strong>Course:</strong> B.Tech (2nd Year)</p>
-            <p><strong>Location:</strong> Kaladera, Chomu, Jaipur</p>
-            <p><strong>12th Percentage:</strong> 80%</p>
-        </div>
+            <!-- Info Box -->
+            <div class="info-box">
+                <p><strong>College:</strong> JEC College</p>
+                <p><strong>Course:</strong> B.Tech (2nd Year)</p>
+                <p><strong>Location:</strong> Kaladera, Jaipur (Rajasthan)</p>
+            </div>
 
-            <button class="btn-primary" style="margin-top: 20px;">Download CV</button>
+            <button class="btn-primary" style="margin-top: 20px;">
+                Download CV
+            </button>
         </div>
 
     </div>
 </section>
-
 <!-- ================= SERVICES ================= -->
 <section id="services" class="features fade">
     <h2 class="section-title">My Services</h2>
@@ -101,7 +120,7 @@
 
         <div class="feature">
             <div class="feature-icon">
-                <img src="WhatsApp Image 2026-02-24 at 12.18.30 PM.jpeg" alt="HTML Development">
+                <img src="image/WhatsApp Image 2026-02-24 at 12.18.29 PM (1).jpeg" alt="HTML Development">
             </div>
             <h3>HTML Development</h3>
             <p>
@@ -112,7 +131,7 @@
 
         <div class="feature">
             <div class="feature-icon">
-                <img src="WhatsApp Image 2026-02-24 at 12.18.29 PM.jpeg" alt="Modern Styling">
+                <img src="image/WhatsApp Image 2026-02-24 at 12.18.29 PM.jpeg" alt="Modern Styling">
             </div>
             <h3>Modern UI Styling</h3>
             <p>
@@ -123,7 +142,7 @@
 
         <div class="feature">
             <div class="feature-icon">
-                <img src="WhatsApp Image 2026-02-24 at 12.18.29 PM (1).jpeg" alt="Responsive Design">
+                <img src="image/WhatsApp Image 2026-02-24 at 12.18.29 PM (1).jpeg" alt="Responsive Design">
             </div>
             <h3>Responsive Design</h3>
             <p>
@@ -135,24 +154,44 @@
     </div>
 </section>
 
-<!-- PORTFOLIO -->
+<!-- ================= PORTFOLIO ================= -->
 <section id="portfolio" class="portfolio">
     <h2 class="section-title">My Work</h2>
+    <p class="section-subtitle">
+        Here are some of my recent projects showcasing clean UI,
+        responsive layouts and modern frontend development.
+    </p>
 
-    <!-- <div class="portfolio-grid">
-        <img src="image/Screenshot_2025-06-26-16-22-17-54_40deb401b9ffe8e1df2f1cc5ba480b12.jpg" alt="">
-        <img src="image/WhatsApp Image 2025-12-20 at 10.48.41 AM.jpeg" alt="">
-        <img src="image/WhatsApp Image 2025-12-20 at 10.48.41 AM.jpeg" alt="">
-        <img src="image/WhatsApp Image 2025-12-20 at 10.48.41 AM.jpeg" alt="">
-    </div> -->
-    
-</section>
+    <div class="portfolio-grid">
 
-<!-- CALL TO ACTION -->
-<section class="cta">
-    <h2>Have a Project in Mind?</h2>
-    <p>Let’s build something amazing together.</p>
-    <button class="btn-primary">Contact Me</button>
+        <div class="project-card">
+            <img src="image/WhatsApp Image 2026-02-24 at 12.18.30 PM.jpeg" alt="Project 1">
+            <div class="project-overlay">
+                <h3>Business Landing Page</h3>
+                <p>Modern responsive landing page design.</p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="image/WhatsApp Image 2026-02-24 at 12.18.29 PM.jpeg" alt="Project 2">
+            <div class="project-overlay">
+                <h3>Portfolio Website</h3>
+                <p>Personal branding & clean UI layout.</p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="image/WhatsApp Image 2026-02-24 at 12.18.29 PM (1).jpeg" alt="Project 3">
+            <div class="project-overlay">
+                <h3>Responsive Design</h3>
+                <p>Mobile-first modern interface.</p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+        </div>
+
+    </div>
 </section>
 
 <!-- CONTACT -->
